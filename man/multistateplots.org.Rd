@@ -1,7 +1,6 @@
 \name{multistateplots.org}
 \alias{multistateplots.org}
-%- Also NEED an '\alias' for EACH other topic documented here.
-\title{multistateplots.org}
+\title{Multistate plots by organism types}
 \description{
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
@@ -28,7 +27,7 @@ multistateplots.org(output.LOS)
 %% ~put references to the literature/web site here ~
 }
 \author{
-%%  ~~who you are~~
+N Green
 }
 \note{
 %%  ~~further notes~~

@@ -1,9 +1,8 @@
 \name{getGrams}
 \alias{getGrams}
-%- Also NEED an '\alias' for EACH other topic documented here.
-\title{getGrams}
+\title{Otain Grams-negative or Gram-positive patient organism status}
 \description{
-Produces a vector of given sign Gram recorded in data.
+Produces a vector of given sign Gram recorded in data for each infected patient.
 }
 \usage{
 getGrams(data, sign)
@@ -31,7 +30,7 @@ getGrams(data, sign)
 %% ~put references to the literature/web site here ~
 }
 \author{
-%%  ~~who you are~~
+N Green
 }
 \note{
 %%  ~~further notes~~

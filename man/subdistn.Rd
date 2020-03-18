@@ -1,7 +1,6 @@
 \name{subdistn}
 \alias{subdistn}
-%- Also NEED an '\alias' for EACH other topic documented here.
-\title{subdistn}
+\title{Fine & Gray subdistribution model time to event times}
 \description{
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
@@ -25,10 +24,10 @@ subdistn(survData)
 %% ...
 }
 \references{
-%% ~put references to the literature/web site here ~
+A Proportional Hazards Model for the Subdistribution of a Competing Risk, Jason P. Fine and Robert J. Gray, Journal of the American Statistical Association, Vol. 94, No. 446 (Jun 1999), pp. 496-509.
 }
 \author{
-%%  ~~who you are~~
+N Green
 }
 \note{
 %%  ~~further notes~~
@@ -54,6 +53,7 @@ function (survData)
         survData$missingType] <- mtime1 + 1
     survData$time2death[survData$infstatus == 1 & !survData$event & 
         survData$missingType] <- mtime1 + 1
+        
     mtime0 <- max(survData[survData$infstatus == 0, "time"], 
         na.rm = TRUE)
     survData$time2disch[survData$infstatus == 0 & survData$event & 

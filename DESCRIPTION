@@ -1,0 +1,9 @@
+Package: HESmanip
+Type: Package
+Title: Hospital length of stay data preprocessing and analysis
+Version: 1.0
+Date: 2013-06-19
+Author: N Green
+Maintainer: N Green <nathan.green@phe.gov.uk>
+Description: Hospital length of stay data preprocessing and analysis)
+License: None

@@ -1,9 +1,8 @@
 \name{rmDuplicates}
 \alias{rmDuplicates}
-%- Also NEED an '\alias' for EACH other topic documented here.
-\title{rmDuplicates}
+\title{Remove duplicate patient records}
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+Remove patient records for the same patient-stay where one or more of the records have duplicate or missing entries.
 }
 \usage{
 rmDuplicates(total.data, subrows)
@@ -11,10 +10,10 @@ rmDuplicates(total.data, subrows)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{total.data}{
-%%     ~~Describe \code{total.data} here~~
+Complete combined patient record data set.
 }
   \item{subrows}{
-%%     ~~Describe \code{subrows} here~~
+Row names of subset of patient records on which to apply function.
 }
 }
 \details{
@@ -31,7 +30,7 @@ rmDuplicates(total.data, subrows)
 %% ~put references to the literature/web site here ~
 }
 \author{
-%%  ~~who you are~~
+N Green
 }
 \note{
 %%  ~~further notes~~
@@ -40,7 +39,7 @@ rmDuplicates(total.data, subrows)
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
+\code{\link{findDuplicates}}
 }
 \examples{
 ##---- Should be DIRECTLY executable !! ----

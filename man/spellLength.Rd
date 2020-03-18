@@ -1,9 +1,8 @@
 \name{spellLength}
 \alias{spellLength}
-%- Also NEED an '\alias' for EACH other topic documented here.
-\title{spellLength}
+\title{Find actual start and end of a patients in-hospital spell}
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+
 }
 \usage{
 spellLength(adm, disch)
@@ -11,14 +10,14 @@ spellLength(adm, disch)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{adm}{
-%%     ~~Describe \code{adm} here~~
+Admission dates for (subset of) patient records.
 }
   \item{disch}{
-%%     ~~Describe \code{disch} here~~
+Discharge dates for (subset of) patient record.
 }
 }
 \details{
-%%  ~~ If necessary, more details than the description above ~~
+Chains of linked discharge and admission dates are made to then determine what the overall first admission and last disscharge times are and then these are substituted in to all of the relevant records.
 }
 \value{
 %%  ~Describe the value returned
@@ -31,7 +30,7 @@ spellLength(adm, disch)
 %% ~put references to the literature/web site here ~
 }
 \author{
-%%  ~~who you are~~
+N Green
 }
 \note{
 %%  ~~further notes~~

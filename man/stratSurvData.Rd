@@ -1,7 +1,6 @@
 \name{stratSurvData}
 \alias{stratSurvData}
-%- Also NEED an '\alias' for EACH other topic documented here.
-\title{stratSurvData}
+\title{Stratify patient survival data}
 \description{
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
@@ -11,10 +10,10 @@ stratSurvData(survData, survDataCol)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{survData}{
-%%     ~~Describe \code{survData} here~~
+patient records data.
 }
   \item{survDataCol}{
-%%     ~~Describe \code{survDataCol} here~~
+vector of whole column by which to stratify by.
 }
 }
 \details{
@@ -31,7 +30,7 @@ stratSurvData(survData, survDataCol)
 %% ~put references to the literature/web site here ~
 }
 \author{
-%%  ~~who you are~~
+N Green
 }
 \note{
 %%  ~~further notes~~

@@ -1,9 +1,8 @@
 \name{rmOrganism}
 \alias{rmOrganism}
-%- Also NEED an '\alias' for EACH other topic documented here.
-\title{rmOrganism}
+\title{Remove duplicate entries which only differ by HCAI organism type}
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+Within an organism group take the first incidence of infection i.e earliest specimen time and remove the rest.
 }
 \usage{
 rmOrganism(data)
@@ -11,7 +10,7 @@ rmOrganism(data)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{data}{
-%%     ~~Describe \code{data} here~~
+Patient record data with approriate fields.
 }
 }
 \details{
@@ -28,7 +27,7 @@ rmOrganism(data)
 %% ~put references to the literature/web site here ~
 }
 \author{
-%%  ~~who you are~~
+N Green
 }
 \note{
 %%  ~~further notes~~

@@ -1,9 +1,8 @@
 \name{LOStable}
 \alias{LOStable}
-%- Also NEED an '\alias' for EACH other topic documented here.
-\title{LOStable}
+\title{Hospital length of stay table}
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+Stratified data estimates of length of stay with standard errors.
 }
 \usage{
 LOStable(output.LOS, se = TRUE)
@@ -31,7 +30,7 @@ LOStable(output.LOS, se = TRUE)
 %% ~put references to the literature/web site here ~
 }
 \author{
-%%  ~~who you are~~
+N Green
 }
 \note{
 %%  ~~further notes~~
@@ -40,7 +39,7 @@ LOStable(output.LOS, se = TRUE)
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
+\code{\link{listLOS}}
 }
 \examples{
 ##---- Should be DIRECTLY executable !! ----
